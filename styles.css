@@ -1,92 +1,57 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ruslan+Display&display=swap');
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Побег от Елисея</title>
+    <link rel="stylesheet" href="styles.css">
+     <link rel="icon" href="materials/icon.jpg">
+</head>
+<body>
 
-body{
-    margin: 0;
-    padding: 0;
-    background-color: #303030;
-    color: aliceblue;
-    font-family: "Montserrat";
-}   
+    <div class="section1">
+    <h1>Встречайте легендарную игру Побег от Елисея!</h1>
+    <h2>Почему вам стоит поиграть в эту игру?</p>
+    <ol>
+        <li>Крутые игровые механики</li>
+        <li>Относительно большое комьюнити</li>
+        <li>Множество игровых локаций</li>
+        <li>+ 100 троянов в подарок</li>
+        <li>ТОП 1 среди хорроров сделанных в Костюковичах</li>
+    </ol>
+    </div>
 
-.section1, .section2, .section3, .section4, section5{
-    padding: 30px;
-    background-color: rgb(21, 21, 21);
-}
-
-.section2{
-    background-color: #3A3335;
-}
-.section3{
-    background-color: #373F51;
-}
-.section5{
-    padding-top: 50px;
-}
-
-.section5 a {
-  display: inline-block; /* сохраняет размер кнопки */
-  width: auto;            /* кнопка сама решает, какой ширины быть */
-  margin-bottom: 10px;    /* отступ между кнопками */
-}
-
-h1{
-    font-family: "Ruslan Display", sans-serif;
-    font-weight: 900;
-    font-size: 80px;
-}
-
-h2{
+    <center>
+    <div class="section2">
+        <h2>Поясняющий ролик: </h2>
+        <iframe src="https://www.youtube.com/embed/embctG1MwEo" title="Реклама" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    </center>
     
-    color: aliceblue;
-    font-weight: 900;
-    font-size: 50px;
-}
-ol, p{
-    font-size: 35px;
-    font-weight: 500;
-}
+    <center>
+    <div class="section3">
+        <h2>Где можно скачать игру?</h2>
+        <p>Игру можно скачать в моем ТГК</p>
+        <a href="https://t.me/EliseyGame" target="_blank">Перейти в ТГК</a>
+    </div>
+    </center>
 
+    <center>
+        <div class="section4">
+            <h2>Полное прохождение последней версии: </h2>
+            <iframe src="https://www.youtube.com/embed/KcUl1wOst40" title="Прохождение игры" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </center>
 
-
-iframe{
-    width: 60vw;
-    height: 30vw;
-    border-radius: 20px;
-    border: 1px solid #fff;
-}
-
-a{
-    color: #fff;
-    text-decoration: none;
-    font-size: 30px;
-    font-weight: 800;
-    padding: 15px;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    margin: 30px;
-    background-color: #d87b1e;
-    border-radius: 20px;  
-    transition: background-color 0.3s ease, transform 0.3s ease; 
-}
-
-a:hover{
-  background-color: #357bd8;
-  transform: scale(1.05);
-}
-
-#mybutton{
-    background-color: #D81E5B;
-}
-
-@media (max-width: 600px) {
-  h1{
-    font-size: 40px;
-  }
-  h2{
-    font-size: 25px;
-  }
-}
-
-
-
-
+    <center>
+        <div class="section5">
+            <p>Artemmiek - создатель игры. Помогали в разработке: Георгий, Александр, Алексей, Паша.</p>
+            <a href="https://t.me/Artemmiek" target="_blank" id="mybutton">Мой аккаунт</a>
+            <a href="https://t.me/Leshabalyndyla" target="_blank">Аккаунт Алексея</a>
+            <a href="https://t.me/Padl11111" target="_blank">Аккаунт Паши</a> 
+            <a href="https://t.me/Echpechmeck" target="_blank">Аккаунт Александра</a>
+            <a href="https://t.me/htnwak11" target="_blank">Аккаунт Георгия</a>
+    </center>
+    
+</body>
+</html>
